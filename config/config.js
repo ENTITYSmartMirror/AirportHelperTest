@@ -409,7 +409,7 @@ var config = {
 			position: "top_bar"
 		},
 		{
-			module: "MMM-Testpython",
+			module: "MMM-Testpython", //32
 			position: "bottom_center",
 			config:{
 			}
@@ -449,7 +449,7 @@ var config = {
 				showPageIndicators: true,
 				showPageControls: true,
 				slides: {
-					main: ["mm-hide-all","WhatAge","camera","clock","MMM-Testpython"],
+					main: ["mm-hide-all","WhatAge","camera","clock","MMM-Testpython","CategoryHairstyle",/*"CategorySelectMain"*/],
 					//main: [/*"mm-hide-all","WhatAge","camera",*/"clock","CategoryHairstyle","CategorySelectMain"],
 					//main: ["clock","currentweather","weatherforecast","MMM-Globe","newsfeed","mm-hide-all","clock","MMM-Avinor"],
 					"Slide 2": ["MMM-Avinor"],

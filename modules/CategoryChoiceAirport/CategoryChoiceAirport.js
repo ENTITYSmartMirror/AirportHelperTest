@@ -186,10 +186,11 @@ Module.register("CategoryChoiceAirport",{
             }
 			// Adds the text to the item.
             item.appendChild(text);
-        }
+		}
 		// All done. :)
         return item;
 	},
+	
 });	
 
 

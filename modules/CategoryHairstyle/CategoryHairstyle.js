@@ -227,6 +227,35 @@ Module.register("CategoryHairstyle",{
         }
 		// All done. :)
         return item;
+	},
+	notificationReceived: function(notification, payload) {
+		Log.info(this.name + " - received notification: " + notification);
+		if(notification === "Testpython is done"){
+			//console.log("this a ", this.config.a)
+			this.show(self.config.animationSpeed, {force: self.config.allowForce});
+		}
+		
+		/*
+		if(notification === "setDefault"){
+			//console.log("this a ", this.config.a)
+			this.config.a=0;
+		}
+		if(notification === "AFTERIMAGE"){
+			//console.log("this a ", this.config.a)
+			this.config.a=2;
+		}
+		if(notification === "LOADINGBEFORE"){
+			//console.log("this a ", this.config.a)
+			this.config.a=3;
+		}
+		*/
+/*
+		if(notification === "LOADINGAFTER"){
+			console.log("this a ", this.config.a)
+			this.config.a=3;
+
+		}
+*/
 	}
 	
 });	

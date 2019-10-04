@@ -392,13 +392,15 @@ Module.register("WhatAge", {
 			//console.log("this a ", this.config.a)
 			this.config.a=3;
 		}
-/*
+		/*
 		if(notification === "LOADINGAFTER"){
 			console.log("this a ", this.config.a)
 			this.config.a=3;
 
+		}*/
+		if(notification === "Testpython is done"){
+			this.hide();
 		}
-*/
 	}
 
 });

@@ -1,9 +1,20 @@
 var Testpythons;
 Module.register("MMM-Testpython", {
 
-    defaults: {},
+  requiresVersion: "2.1.0",
+
+    defaults: {
+      // Allow the module to force modules to be shown (if hidden and locked by another module ex. profile-switcher).
+      allowForce: false,
+      // Determines if the border around the buttons should be shown.
+      
+      
+      animationSpeed: 500,
+      // The default button 1. Add your buttons in the config.
+    },
     start: function (){
         Testpythons = this;
+        this.config.identifier = this.identifier;
     },
 
   getDom: function() {
@@ -46,7 +57,8 @@ Module.register("MMM-Testpython", {
         var payload3;
 			  payload3=payload.toString().split(",");
 			  var gender = payload3[0];
-			  var age = payload3[1];
+        var age = payload3[1];
+        var modules = MM.getModules();
         var elemk = document.getElementById("clickid1")
         var elemk2 = document.getElementById("showage");
         elemk.innerHTML = "여기를 클릭하면 나이에 따른 여행코스를 추천해드립니다.";
@@ -54,6 +66,13 @@ Module.register("MMM-Testpython", {
         elemk.addEventListener("click", () => {
           //Testpythons.sendNotification("gotoairport")
           console.log("airairairair")
+          this.sendNotification("Testpython is done");
+          
+          modules[32].hide();
+              
+            
+            
+          
           
         })
       break;
