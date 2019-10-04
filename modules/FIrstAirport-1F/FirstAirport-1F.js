@@ -360,7 +360,7 @@ Module.register("FirstAirport-1F", {
 					*/					
 					
 					if(this.config.a==0){
-					image.src = this.imageList[0];
+					image.src = this.imageList[1];
 					
 					}
 					if(this.config.a==1){

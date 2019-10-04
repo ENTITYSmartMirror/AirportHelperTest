@@ -449,8 +449,8 @@ var config = {
 				showPageIndicators: true,
 				showPageControls: true,
 				slides: {
-					//main: ["mm-hide-all","WhatAge","camera","clock","MMM-Testpython"],
-					main: [/*"mm-hide-all","WhatAge","camera",*/"clock","CategoryHairstyle","CategorySelectMain"],
+					main: ["mm-hide-all","WhatAge","camera","clock","MMM-Testpython"],
+					//main: [/*"mm-hide-all","WhatAge","camera",*/"clock","CategoryHairstyle","CategorySelectMain"],
 					//main: ["clock","currentweather","weatherforecast","MMM-Globe","newsfeed","mm-hide-all","clock","MMM-Avinor"],
 					"Slide 2": ["MMM-Avinor"],
 					"Slide 3": ["FirstAirport-2F","CategoryChoiceAirport","MMM-EmbedYoutube1","MMM-EmbedYoutube2","FirstAirport-1F","mm-hide-all","clock","The1Airport"],
@@ -473,7 +473,7 @@ var config = {
 			position: "middle_center",
 			header:"  1Airport ",
 			config: {
-				imagePaths: ["modules/MMM-BeforeAfter/before"]
+				imagePaths: ["modules/FirstAirport-1F/image"]
 			}
 		}, //41
 		{

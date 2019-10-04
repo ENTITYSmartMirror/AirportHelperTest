@@ -33,7 +33,7 @@ Module.register("CategoryChoiceAirport",{
         // The default button 1. Add your buttons in the config.
         buttons: {
                     "1": {
-	                  		module: "The1Airport",
+	                  		module: "FirstAirport-1F",
 												img:"https://image.flaticon.com/icons/svg/2077/2077099.svg",
 												width:"50",
 												height:"50",
